@@ -1,0 +1,6 @@
+@nikosnick13.ShiftsLogger_HostAddress = http://localhost:5171
+
+GET {{nikosnick13.ShiftsLogger_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

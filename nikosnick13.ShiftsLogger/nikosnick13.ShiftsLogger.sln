@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nikosnick13.ShiftsLoggerAPI", "nikosnick13.ShiftsLoggerAPI.csproj", "{9A25A8C0-EF9F-40AA-8398-654910B19627}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "nikosnick13.ShiftsLoggerUI", "..\nikosnick13.ShiftsLoggerUI\nikosnick13.ShiftsLoggerUI.csproj", "{C6952BD1-8DCD-4E62-8CE2-A23C47C2F064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A25A8C0-EF9F-40AA-8398-654910B19627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25A8C0-EF9F-40AA-8398-654910B19627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25A8C0-EF9F-40AA-8398-654910B19627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25A8C0-EF9F-40AA-8398-654910B19627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6952BD1-8DCD-4E62-8CE2-A23C47C2F064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6952BD1-8DCD-4E62-8CE2-A23C47C2F064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6952BD1-8DCD-4E62-8CE2-A23C47C2F064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6952BD1-8DCD-4E62-8CE2-A23C47C2F064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08643BB0-59EC-4256-BC50-7C759D09EAE6}
+	EndGlobalSection
+EndGlobal
