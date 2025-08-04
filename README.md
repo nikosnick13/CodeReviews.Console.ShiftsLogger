@@ -1,30 +1,24 @@
 # Shifts Logger - Fullstack Console App
 
-This is a **.NET 6+ fullstack project** consisting of:
+A simple console-based UI + Web API project for managing shifts.
 
-- A RESTful Web API for managing employee shifts
-- A Console UI built with Spectre.Console to interact with the API
-
----
-
-## ✨ Features
-
-### ✅ Console UI (ShiftsLoggerUI)
+## ✅ Console UI (ShiftsLoggerUI)
 
 - View all shifts
-- View a shift by ID
-- Create a new shift
-- Update a shift
-- Delete a shift
-- Stylish terminal interface using [Spectre.Console](https://spectreconsole.net/)
+- View one shift by ID
+- Add, update, and delete shifts
 
+## 🛠️ Web API (ShiftsLoggerAPI)
 
-### 🛠️ Web API (ShiftsLoggerAPI)
 - `GET /api/Shift` – Get all shifts
-- `GET /api/Shift/{id}` – Get a shift by ID
-- `POST /api/Shift` – Create new shift
+- `GET /api/Shift/{id}` – Get a shift by id
+- `POST /api/Shift` – Create a shift
 - `PUT /api/Shift/{id}` – Update a shift
 - `DELETE /api/Shift/{id}` – Delete a shift
+
+```bash
+dotnet run
+
 
 ---
 
