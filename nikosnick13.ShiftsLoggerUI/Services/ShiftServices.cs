@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using static Spectre.Console.AnsiConsole;
 using System.Net.Http.Json;
@@ -71,7 +70,7 @@ internal class ShiftServices
     {
         try
         {
-            var newShift = await _client.PostAsJsonAsync("", shift);
+            await _client.PostAsJsonAsync("", shift);
         }
         catch (HttpRequestException ex)
         {

@@ -10,12 +10,14 @@ This is a **.NET 6+ fullstack project** consisting of:
 ## ✨ Features
 
 ### ✅ Console UI (ShiftsLoggerUI)
+
 - View all shifts
 - View a shift by ID
 - Create a new shift
 - Update a shift
 - Delete a shift
 - Stylish terminal interface using [Spectre.Console](https://spectreconsole.net/)
+
 
 ### 🛠️ Web API (ShiftsLoggerAPI)
 - `GET /api/Shift` – Get all shifts

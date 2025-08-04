@@ -1,8 +1,4 @@
-﻿
-using System.Runtime.Intrinsics.X86;
-using System.Security.Cryptography;
-
-namespace nikosnick13.ShiftsLoggerAPI.Model;
+﻿namespace nikosnick13.ShiftsLoggerAPI.Model;
 
 public class Shift
 {
